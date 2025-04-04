@@ -31,16 +31,17 @@
 ## 🏗️ Project Structure
 
 math-engine/
-├── prisma/
+├── prisma/                 # Prisma schema and migrations
 ├── src/
-│   ├── config/
+│   ├── config/             # Database and environment setup
 │   ├── controllers/        # One file per controller
-│   ├── middleware/
-│   ├── routes/
-│   ├── utils/
-├── tests/
-├── logs/
-└── .env
+│   ├── middleware/         # Logger, error handler, etc.
+│   ├── routes/             # API route definitions
+│   ├── utils/              # Validation and helper functions
+├── tests/                  # Jest test cases
+├── logs/                   # Winston log outputs
+├── .env                    # Environment variables
+
 
 ---
 
