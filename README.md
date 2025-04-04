@@ -30,7 +30,8 @@
 
 ## 🏗️ Project Structure
 
-```math-engine/
+```
+math-engine/
 ├── prisma/                 # Prisma schema and migrations
 ├── src/
 │   ├── config/             # Database and environment setup
