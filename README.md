@@ -49,8 +49,10 @@
 ## ⚙️ Setup Instructions
 1. Clone the repo
 
+```
 git clone https://github.com/yourusername/math-engine.git
 cd math-engine
+```
 
 2. Install dependencies
 npm install
@@ -70,6 +72,7 @@ npm run dev   # Server will run at: http://localhost:3000
 ---
 
 ## 📬 API Endpoints
+```
 Method	Endpoint	Description
 POST	/api/addition	Add two numbers
 POST	/api/power	Base raised to exponent
@@ -78,14 +81,16 @@ GET	/api/fibonacci/:count	Fibonacci sequence up to count
 POST	/api/is-prime	Check if a number is prime
 GET	/api/operations	List all operations
 DELETE	/api/operations/:id	Delete operation by ID
+```
 
 ---
 
 # 📌 Example: Add Two Numbers
+```
 curl -X POST http://localhost:3000/api/addition \
   -H "Content-Type: application/json" \
   -d '{"a": 10, "b": 20}'
-
+```
 ---
 
 # 🧪 Running Tests
@@ -133,6 +138,7 @@ Reusable, scalable architecture
 ---
 
 ## 🧾 Prisma Model
+```
 model Operation {
   id        Int      @id @default(autoincrement())
   type      String
@@ -141,7 +147,7 @@ model Operation {
   createdAt DateTime @default(now())
   updatedAt DateTime @default(now()) @updatedAt
 }
-
+```
 ---
 
 ## 🛠️ Future Improvements
