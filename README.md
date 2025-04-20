@@ -1,6 +1,6 @@
-# 📐 MathEngine API
+# 📐 Tip Calculator API
 
-**MathEngine** is a Node.js backend API for performing common mathematical operations. It uses **Express.js**, **Prisma ORM**, and **SQLite**. Built with modular structure (MVC), enterprise-level logging with **Winston**, full input validation, and scalable design.
+**Tip Calculator** is a Node.js backend API for performing common mathematical operations. It uses **Express.js**, **Prisma ORM**, and **SQLite**. Built with modular structure (MVC), enterprise-level logging with **Winston**, full input validation, and scalable design.
 
 ---
 
@@ -31,7 +31,7 @@
 ## 🏗️ Project Structure
 
 ```
-math-engine/
+tip-calculator/
 ├── prisma/                 # Prisma schema and migrations
 ├── src/
 │   ├── config/             # Database and environment setup
@@ -51,8 +51,8 @@ math-engine/
 1. Clone the repo
 
 ```
-git clone https://github.com/yourusername/math-engine.git
-cd math-engine
+git clone https://github.com/yourusername/tip-calculator.git
+cd tip-calculator
 ```
 
 2. Install dependencies
